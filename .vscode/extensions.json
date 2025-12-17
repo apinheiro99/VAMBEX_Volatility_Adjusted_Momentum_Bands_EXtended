@@ -3,9 +3,11 @@
     "ms-python.python",
     "ms-python.vscode-pylance",
     "ms-python.debugger",
+    "ms-python.debugpy",
     "ms-python.black-formatter",
     "ms-python.isort",
-    "ms-python.python-environments",
+    "ms-python.vscode-python-envs",
+    "ms-azuretools.vscode-docker",
     "pkief.material-icon-theme",
     "oderwat.indent-rainbow",
     "usernamehw.errorlens",
@@ -13,11 +15,10 @@
     "aaron-bond.better-comments",
     "christian-kohler.path-intellisense",
     "mechatroner.rainbow-csv",
-    "ms-azuretools.vscode-docker",
     "shardulm94.trailing-spaces",
     "yzhang.markdown-all-in-one",
     "Gitkraken.gitkraken-authentication",
-    "binaryify.one-dark-pro"
+    "github.copilot",
+    "openai.chatgpt"
   ]
 }
-
