@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugger",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.python-environments",
+    "pkief.material-icon-theme",
+    "oderwat.indent-rainbow",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "aaron-bond.better-comments",
+    "christian-kohler.path-intellisense",
+    "mechatroner.rainbow-csv",
+    "ms-azuretools.vscode-docker",
+    "shardulm94.trailing-spaces",
+    "yzhang.markdown-all-in-one",
+    "Gitkraken.gitkraken-authentication",
+    "binaryify.one-dark-pro"
+  ]
+}
+
