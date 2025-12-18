@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 def setup_logging(
-    level: int = logging.INFO,
+    level: int = logging.DEBUG,
     log_dir: str = "logs",
     log_file: str = "vambex.log",
 ) -> None:
@@ -38,7 +38,7 @@ def setup_logging(
         return
 
     formatter = logging.Formatter(
-        "[VAMBEX] %(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        "[VAMBEX] %(asctime)s | %(levelname)s | %(name)s | %(funcName)s | %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
