@@ -4,39 +4,36 @@
   // =========================
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
-
   // =========================
   // Editor
   // =========================
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
-  "editor.rulers": [88],
+  "editor.rulers": [
+    88
+  ],
   "editor.formatOnSave": true,
-
-"editor.codeActionsOnSave": {
-  "source.organizeImports": "always"
-},
-
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
   // =========================
   // Python
   // =========================
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-
   // Type checking (mypy via Pylance)
-  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.typeCheckingMode": "standard",
   "python.analysis.diagnosticMode": "workspace",
-
   // =========================
   // Arquivos
   // =========================
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-
   // =========================
   // Git
   // =========================
   "git.enableSmartCommit": true,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "python.analysis.autoImportCompletions": true
 }
