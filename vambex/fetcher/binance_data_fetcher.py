@@ -208,20 +208,27 @@ if __name__ == "__main__":
     from vambex.core.logging_config import setup_logging
 
     setup_logging(level=logging.DEBUG)
+    logger.debug("Starting BinanceDataFetcher example")
 
-    symbol = "LTCUSDT"
-    interval = "1h"
+    symbol = "BNBUSDT"
+    interval = "4h"
     limit = 1000
 
     fetcher = BinanceDataFetcher(symbol, interval, limit)
 
     try:
         df = fetcher.fetch_and_convert()
-        logger.info(
+        logger.debug(
             "Data fetched and converted successfully for %s with %s.",
             symbol,
             interval,
         )
+        # print the first few rows of the DataFrame to verify content
         print(df.head())
+
+        # Saving CSV, assuming df is your DataFrame with the data
+        df.to_csv("candles_data.csv", index=False)
+        logger.debug("Data saved to CSV file")
+
     except Exception as e:  # noqa: BLE001
         logger.error("Failed to fetch or convert data: %s", e)
